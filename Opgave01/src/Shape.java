@@ -7,6 +7,7 @@ public class Shape {
         yAxis = 0;
         area = 0;
     }
+
     public Shape(int xAxis, int yAxis) {
         this.xAxis = xAxis;
         this.yAxis = yAxis;
@@ -19,8 +20,7 @@ public class Shape {
     public int getyAxis() {
         return yAxis;
     }
-
     public int getArea() {
         return area;
-    }
+    };
 }
