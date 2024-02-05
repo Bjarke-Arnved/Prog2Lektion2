@@ -7,10 +7,9 @@ public class Shape {
         yAxis = 0;
         area = 0;
     }
-    public Shape(int xAxis, int yAxis, int area) {
+    public Shape(int xAxis, int yAxis) {
         this.xAxis = xAxis;
         this.yAxis = yAxis;
-        this.area = area;
     }
 
     public int getxAxis() {
