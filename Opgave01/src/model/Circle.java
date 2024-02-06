@@ -1,3 +1,5 @@
+package model;
+
 public final class Circle extends Shape {
     private int radius;
 

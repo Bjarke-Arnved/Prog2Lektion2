@@ -1,3 +1,5 @@
+package model;
+
 public class Rectangle extends Shape {
     private int sideA;
     private int sideB;

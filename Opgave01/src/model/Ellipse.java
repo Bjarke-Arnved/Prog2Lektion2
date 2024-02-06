@@ -1,3 +1,5 @@
+package model;
+
 public class Ellipse extends Shape {
     private int radius01;
     private int radius02;

@@ -1,3 +1,5 @@
+package model;
+
 public class Shape {
     private int xAxis;
     private int yAxis;
