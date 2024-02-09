@@ -1,6 +1,6 @@
 package model;
 
-public class Rectangle extends Shape {
+public class Rectangle extends Shape implements IResizable {
     private int sideA;
     private int sideB;
     public Rectangle(int x, int y, int sideA, int sideB) {
@@ -13,4 +13,13 @@ public class Rectangle extends Shape {
         area = sideA * sideB;
         return area;
     }
+    public void doubleUp() {
+        sideA *= 2;
+        sideB *= 2;
+    }
+    public void halve() {
+        sideA /= 2;
+        sideB /= 2;
+    }
+
 }

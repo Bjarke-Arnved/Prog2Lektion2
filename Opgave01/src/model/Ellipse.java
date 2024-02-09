@@ -1,6 +1,6 @@
 package model;
 
-public class Ellipse extends Shape {
+public class Ellipse extends Shape implements IResizable {
     private int radius01;
     private int radius02;
     public Ellipse(int x, int y, int radius01, int radius02) {
@@ -14,5 +14,14 @@ public class Ellipse extends Shape {
         r = Math.PI * radius01 * radius02;
         radius = (int)r;
         return radius;
+    }
+    public void doubleUp() {
+        radius01 *= 2;
+        radius02 *= 2;
+    }
+    public void halve() {
+        radius01 /= 2;
+        radius02 /= 2;
+
     }
 }
