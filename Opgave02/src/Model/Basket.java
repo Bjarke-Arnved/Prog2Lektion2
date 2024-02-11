@@ -31,7 +31,7 @@ public class Basket {
             System.out.printf("%-60s %6.2f kr.\n", discount.getDescription(), discountAmount);
             totalDiscount += discountAmount;
         }
-        double discountedTotal = total + totalDiscount;
+        double discountedTotal = total - totalDiscount;
         System.out.println("-------------------------------------------------------------------------");
         System.out.printf("%-60s %5.2f kr.\n", "ialt: ", discountedTotal);
     }
